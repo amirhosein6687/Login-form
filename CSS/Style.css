@@ -1,0 +1,58 @@
+/* CSS3 file  */
+
+body {
+    box-sizing: border-box;
+    font-family: tahoma , 'sens-serif';
+    align-items: center;
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    background: linear-gradient(
+    45deg,#b819d8,#08bbac,#4a80f3,#b819d8
+    );
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.input-text {
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 16px;
+    transition: all .3s;
+}
+
+.input-text:hover{
+    box-shadow: #000000 6px 6px 7px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.input-text:active {
+    box-shadow: #fd0303 6px 6px 7px;
+}
+
+#submit-btn {
+    border: solid #000 2px;
+    padding: 20px 40px;
+    border-radius: 16px;
+    background: rgba(191, 230, 52, 0.507);
+    transition: all .3s;
+}
+
+#submit-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
